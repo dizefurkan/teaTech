@@ -88,4 +88,7 @@
 
 .header__navBar__search .form-group .fa-search {
 	color: #ffffff;
+	position: absolute;
+	top: 15px;
+	right: 0;
 }
