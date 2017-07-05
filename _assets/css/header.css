@@ -97,6 +97,10 @@
 	right: 0;
 }
 
+.header__navBar__search .navbar-form {
+	padding-left: 0;
+}
+
 @media (max-width: 1024px) {
     .navbar-header {
         float: none;
