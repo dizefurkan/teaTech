@@ -1,0 +1,138 @@
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+.header__menu {
+	width: 100%;
+}
+
+.header__imgLogo{
+	position: absolute;
+}
+
+.header__top {
+	position: relative;
+	background-color: #e2e1e1;
+}
+
+.header__logo img {
+	position: absolute;
+	z-index: 1;
+}
+
+.header__top__menu__item, .header__top__auth__item {
+	float: left;
+}
+
+.header__top__auth__item, .header__top__menu__item {
+	padding: 8px 16.5px;
+}
+
+.header__top__auth__item.login {
+	padding: 0;
+	
+}
+
+.header__top__auth__item.login a {
+	color: #ffffff;
+	padding: 8px 16.5px;
+	background-color: #f85458;
+	display: inline-block;
+}
+
+.header__top__auth__item.register {
+	padding: 0;
+}
+
+.header__top__auth__item.register a {
+	color: #ffffff;
+	padding: 8px 24px;
+	background-color: #c8c3c3;
+	display: inline-block;
+}
+
+.header__top__menu__item {
+	float: left;
+	padding: 0;
+	padding-right: 5px;
+	margin:  8px 8.5px;
+	margin-left: 0;
+	border-right: 1px solid #969696;
+	display: inline-block;
+}
+
+.header__top__menu__item a {
+	color: #969696;
+
+}
+
+.header__top__menu__item:nth-last-child(1){
+	padding-right: 13px;
+	border: none;
+}
+
+.header__toggle {
+	background-color: #4eb5a6;
+}
+
+.header__toggle .navbar-toggle {
+	margin-right: 0;
+}
+
+.header__navBar {
+	background-color: #4eb5a6;
+}
+
+.header__navBar__menu__item a {
+	float: left;
+	margin: 9px 0;
+	padding: 24px 17px;
+	color: #ffffff;
+	display: block;
+}
+
+.header__navBar__menu__item a:hover {
+	color: #f85458;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #f85458;
+}
+
+.navbar-form {
+	display: inline-block;
+	float: left;
+	margin: 9px 0;
+	padding: 6px 17px;
+}
+
+.navbar-form{
+	position: relative;
+	display: block;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.navbar-form .form-control {
+	border: none;
+	border-color: transparent;
+	border-bottom: 1px solid #ffffff;
+	color: #ffffff;
+	outline-color: transparent;
+	background-color: transparent;
+	border-radius: 0;
+}
+
+.navbar-form .form-control::placeholder {
+	color: #ffffff;
+}
+
+
+.fa-search{
+	position: absolute;
+	color: #ffffff;
+	top: 20px;
+	right: 0;
+	margin-right: 0;
+}
