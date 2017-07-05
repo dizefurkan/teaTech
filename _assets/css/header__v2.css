@@ -86,12 +86,6 @@
 	outline: none;
 }
 
-.header__navBar__search .form-group button {
-	border: 0;
-	background: none;
-	left: -28px;
-}
-
 .header__navBar__search .form-group .fa-search {
 	color: #ffffff;
 }
