@@ -156,12 +156,12 @@
 	.header__navBar__search {
 		float: right;
 	}
+}
 
-	.navbar {
-		border: 0;
-	}
+.navbar {
+	border: 0;
+}
 
-	.header__logo {
-		height: 0;
-	}
+.header__logo {
+	height: 0;
 }
