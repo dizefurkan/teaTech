@@ -89,6 +89,7 @@
 }
 
 .header__navBar__search .navbar-form {
+	padding-right: 0;
 }
 
 .header__navBar__search .form-control::placeholder {
