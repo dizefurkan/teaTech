@@ -146,4 +146,8 @@
 	.header__navBar__search {
 		float: right;
 	}
+
+	.header__navBar__menu {
+		padding-right: 0;
+	}
 }
