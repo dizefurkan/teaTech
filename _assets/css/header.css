@@ -162,6 +162,12 @@
 	border: 0;
 }
 
-.header__logo {
-	height: 0;
+.header__logo, 
+.header__logo .container, 
+.header__logo .container .row, 
+.header__logo .container .row .col-xs-2,
+.header__logo .container .row .col-sm-2,
+.header__logo .container .row .col-md-4 {
+	height: 0 !important;
+	min-height: 0 !important;
 }
