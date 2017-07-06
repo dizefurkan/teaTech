@@ -107,7 +107,7 @@
 	color: #ffffff;
 	position: absolute;
 	top: 10px;
-	right: 0;
+	right: 1px;
 }
 
 @media (max-width: 991px) {
@@ -143,8 +143,9 @@
 }
 
 @media (min-width: 992px){
-	.header__navBar__search {
-		float: right;
+	.header__top .container, .header__navBar .container{
+		padding-left:0;
+ 		padding-right:0;
 	}
 
 	.header__navBar__menu {
