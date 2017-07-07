@@ -40,9 +40,11 @@ body {
 }
 
 .carousel-caption {
-	top: 30%;
-  	right: 25% !important;
-  	left: 25% !important;
+    bottom: auto !important;
+    margin: auto !important;
+    padding: 0 !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
 }
 
 .carousel-caption h1 {
@@ -55,11 +57,10 @@ body {
 	border-bottom: 1px solid #9999a1;
 }
 
-.carousel-caption-article h3{
-	letter-spacing: 1px;
+.carousel-caption-article {
 }
 
-footer {
-    margin: 50px 0;
+.carousel-caption-article h3{
+	letter-spacing: 1px;
 }
 
