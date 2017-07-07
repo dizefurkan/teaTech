@@ -56,6 +56,12 @@
 	background-color: #4eb5a6;
 }
 
+.navbar {
+  margin-bottom: 0;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+}
 
 .navbararea {
 	margin: 9px 0;

@@ -47,3 +47,15 @@
     color: #ffffff;
     font-size: 25px;
 }
+
+@media (max-width: 991px) {
+    .slider__item__text {
+        padding-top: 86px;
+    }
+}
+
+@media (min-width: 992px) {
+    .slider__item__text {
+        padding-top: 104px;        
+    }   
+}
