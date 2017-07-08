@@ -8,13 +8,14 @@
 .infoArea__photo {
   position: relative;
   padding: 10px 0;
-  
+
 }
 
-.infoArea__photo {
+.infoArea__photo img {
   position: absolute;
 
 }
+
 
 .infoArea__textField__title{
   padding-top: 50px;
