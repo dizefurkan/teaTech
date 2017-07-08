@@ -4,24 +4,28 @@
   background-image: url('../media/infoArea__bg.jpg');
   background-size: cover;
   background-position: center center;
+  padding: 42px 0;
 }
 
 .infoArea__photo {
   position: absolute;
   width: 100%;
-  padding: 10px 0;
   top: 50%;
   transform: translate(0%,-50%);
 }
 
+.infoArea__textField {
+  position: relative;
+  z-index: 1;
+}
+
 .infoArea__textField__title{
-  padding-top: 50px;
+
   margin: 0;
   color: #ffffff;
 }
 
 .infoArea__textField__text {
-  padding-bottom: 50px;
   margin: 0;
   color: #ffffff;
 }
@@ -30,16 +34,24 @@
   position: absolute;
   width: 100%;
   top: 50%;
-  left: 0;
+  transform: translate(0%,-50%);
 }
 
-.infoArea_detaiButton {
+.infoArea__button__detaiButton {
+  display: inline-block;
   color: #ffffff;
   padding: 25px 80px;
   border: 1px solid #ffffff;
 }
 
-.infoArea_detaiButton:hover {
+.infoArea__button__detaiButton:hover {
   background-color: #ffffff;
   color: #f04e53;
+}
+
+@media (max-width: 991px) {
+  .infoArea__photo, .infoArea__button {
+    position: relative;
+    display: block;
+  }
 }
