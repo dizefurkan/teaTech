@@ -1,4 +1,5 @@
 .infoArea {
+  position: relative;
   display: block;
   background-image: url('../media/infoArea__bg.jpg');
   background-size: cover;
@@ -6,16 +7,12 @@
 }
 
 .infoArea__photo {
-  position: relative;
-  padding: 10px 0;
-
-}
-
-.infoArea__photo img {
   position: absolute;
-
+  width: 100%;
+  padding: 10px 0;
+  top: 50%;
+  transform: translate(0%,-50%);
 }
-
 
 .infoArea__textField__title{
   padding-top: 50px;
@@ -30,17 +27,19 @@
 }
 
 .infoArea__button {
-  position: relative;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
 }
 
 .infoArea_detaiButton {
-  position: absolute;
   color: #ffffff;
   padding: 25px 80px;
   border: 1px solid #ffffff;
 }
 
-.infoArea_detaiButton: hover {
+.infoArea_detaiButton:hover {
   background-color: #ffffff;
   color: #f04e53;
 }
