@@ -20,6 +20,7 @@
 
 .infoArea__textField {
   position: relative;
+  display: inline-
   z-index: 1;
 }
 
@@ -52,6 +53,7 @@
 .infoArea__button__detailButton:hover {
   background-color: #ffffff;
   color: #f04e53;
+  cursor: pointer;
 }
 
 @media (max-width: 991px) {
