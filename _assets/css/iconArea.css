@@ -27,14 +27,25 @@
   position: relative;
   background-color: #ffffff;
   text-align: center;
+  background-color: none;
+
 }
 
-.iconArea__nav__item__sol, 
-.iconArea__nav__item__sag {
+.iconArea__nav__item__button {
   display: inline-block;
+  padding: 0 20px;
+  z-index: 2;
+  background-color: #ffffff;
+  position: relative;
 }
 
-.iconArea__nav__item__sol a {
+.iconArea__nav__item__button__sol, 
+.iconArea__nav__item__button__sag {
+  display: inline-block;
+
+}
+
+.iconArea__nav__item__button__sol a {
   background-color: #dddddd;
   padding: 10px 20px;
   color: #ffffff;
@@ -42,7 +53,7 @@
   display: inline-block;
 }
 
-.iconArea__nav__item__sag a {
+.iconArea__nav__item__button__sag a {
   background-color: #f85458;
   padding: 10px 20px;
   color: #ffffff;
@@ -50,7 +61,7 @@
   display: inline-block;
 }
 
-.cizgi {
+.iconArea__nav__item__line {
   position: absolute;
   top: 50%;
   border: 1px solid #dddddd;
