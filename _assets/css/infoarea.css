@@ -20,7 +20,7 @@
 
 .infoArea__textField {
   position: relative;
-  display: inline-
+  display: block;
   z-index: 1;
 }
 
@@ -59,12 +59,24 @@
 @media (max-width: 991px) {
   .infoArea__photo, .infoArea__button {
     position: relative;
-    display: inline;
+    display: block;
+    transform: none;
+  }
+
+  .infoArea__photo .img-responsive {
+    margin: auto;
+    padding-bottom: 20px;
   }
 
   .infoArea__button {
-    display: inline;
+    position: relative;
+    display: block;
     text-align: right;
+    padding-top: 20px;
+  }
+
+  .infoArea__button__detailButton {
+    padding: 15px 40px;
   }
 
 }
