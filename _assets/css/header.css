@@ -44,7 +44,6 @@
 }
 
 .header__toggle .navbar-toggle {
-	margin-right: 0;
 	background-color: rgba(255,255,255,1);
 }
 
@@ -123,7 +122,6 @@
 
     .navbar-toggle {
         display: block;
-        padding-right: 
     }
 
     .navbar-collapse {
@@ -190,7 +188,7 @@
 }
 
 @media (min-width: 1200px) {
-  .header__top__auth, .header__navBar__search {
-    margin-right: 15px;
+.header__navBar__search {
+    padding-right: 15px !important;
   }
 }
