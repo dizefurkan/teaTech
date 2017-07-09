@@ -189,3 +189,8 @@
 	min-height: 0 !important;
 }
 
+@media (min-width: 1200px) {
+  .header__top__auth, .header__navBar__search {
+    margin-right: 15px;
+  }
+}
