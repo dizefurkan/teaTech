@@ -38,11 +38,12 @@
   color: #a2a2a2;
 }
 
+
 .topics__textField .content {
   color: #b4b4b4;
 }
 
-.topics__textField .active {
+.topics__textField .title:hover {
   color: #f85458;
 }
 
@@ -78,4 +79,18 @@
   color: #ffffff;
   padding: 15px 20px;
   background-color: #f85458;
+}
+
+.topics__item {}
+
+@media (min-width: 768) and (max-width: 991) {
+  .topics__item:nth-of-type(3n+0) {
+    clear: left;
+  }
+}
+
+@media (min-width: 992) {
+  .topics__item:nth-of-type(4n+0) {
+    clear: left;  
+  }
 }
