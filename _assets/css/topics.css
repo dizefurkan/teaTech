@@ -60,6 +60,7 @@
 .topics__nav__item {
   position: relative;
   display: block;
+  text-align: center;
 }
 
 .topics__nav__item__button {
