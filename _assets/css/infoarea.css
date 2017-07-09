@@ -57,10 +57,17 @@
 }
 
 @media (max-width: 991px) {
-  .infoArea__photo, .infoArea__button {
+  .infoArea__photo,
+  .infoArea__button {
     position: relative;
     display: block;
     transform: none;
+  }
+
+  .infoArea__photo, 
+  .infoArea__button, 
+  .infoArea__textField {
+    text-align: center !important;
   }
 
   .infoArea__photo .img-responsive {
