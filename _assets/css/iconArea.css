@@ -1,9 +1,10 @@
 .iconArea {
   position: relative;
   display: block;
+  padding-top: 50px;
 }
 
-.img-responsive {
+.iconArea .img-responsive {
   position: relative;
   margin: auto;
   border: 15px solid #e4e4e4;
