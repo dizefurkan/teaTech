@@ -45,6 +45,7 @@
 
 .topics__textField .title:hover {
   color: #f85458;
+  cursor: pointer;
 }
 
 .topics__nav {
@@ -83,14 +84,14 @@
 
 .topics__item {}
 
-@media (min-width: 768) and (max-width: 991) {
-  .topics__item:nth-of-type(3n+0) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .topics__item:nth-of-type(2n+1) {
     clear: left;
   }
 }
 
-@media (min-width: 992) {
-  .topics__item:nth-of-type(4n+0) {
+@media (min-width: 992px) {
+  .topics__item:nth-of-type(3n+1) {
     clear: left;  
   }
 }
