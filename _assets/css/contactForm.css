@@ -1,0 +1,41 @@
+.contactForm__title {
+  position: relative;
+  text-align: center;
+  color: #bcbcbc;
+  margin: 40px 0;
+}
+
+.contactForm__item {
+  width: 100%;
+  position: relative;
+  border: 1px solid #dedfdf;
+  padding: 20px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+.contactForm__item:focus{
+  outline-color: #f85458;
+}
+
+.contactForm__item::placeholder {
+  color: #cacaca;
+}
+
+.contactForm__item__submit {
+  width: auto;
+  padding: 20px 50px;
+  display: inline-block;
+  color: #9b9b9b;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.contactForm__item__submit:focus {
+  outline: none;
+}
+
+.contactForm__item__submit:hover {
+  background-color: #f85458;
+  color: #ffffff;
+}
