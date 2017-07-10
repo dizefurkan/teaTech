@@ -45,6 +45,10 @@
   margin-bottom: 5px;
 }
 
+.footer a:hover {
+  color: #ffffff !important;
+}
+
 .footer__content__area__menu__item .socialmedia {
   margin-right: 10px;
   color: #ffffff;

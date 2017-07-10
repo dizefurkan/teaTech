@@ -61,6 +61,7 @@ body, html{
 a,
 a:hover{
   text-decoration: none !important;
+  color: 
 }
 
 .no-gutter [class*="col-"] {
