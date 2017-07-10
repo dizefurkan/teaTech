@@ -73,7 +73,7 @@
 
 .header__navBar__menu__item a:hover {
 	color: #f95559;
-	background-color: #ffffff;
+	background-color: #ffffff !important;
 }
 
 .header__navBar__search .form-group {
@@ -207,3 +207,11 @@
   }
 }
 
+@media (max-width: 768px) {
+  .header__top .container,
+  .header__navBar .container,
+  .header__logo .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
