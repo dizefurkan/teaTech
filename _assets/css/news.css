@@ -98,7 +98,7 @@
     border-right: 1px solid #f4e3e1;
   }
 
-  .news__area__item:nth-of-type(2n+0) {
-    border-right: 0;
+  .news__area__item:nth-of-type(2n) {
+    border-right: none;
   }
 }
