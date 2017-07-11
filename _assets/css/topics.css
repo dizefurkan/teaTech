@@ -15,6 +15,7 @@
 
 .topics__header .active {
   color: #f85457 !important;
+  font-weight: bold;
 }
 
 .topics__header .fa-circle {
@@ -22,6 +23,7 @@
   padding: 0 5px;
   vertical-align: middle;
   color: #a2a2a2;
+  font-weight: normal !important;
 }
 
 .topics .img-responsive {

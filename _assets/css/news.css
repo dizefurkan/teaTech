@@ -72,8 +72,23 @@
   color: #ffffff;
 }
 
-.news__area__item__textField .news__area__item__more:hover .fa-circle{
+.news__area__item__textField .news__area__item__more:hover 
+.fa-circle {
   color: #4eb5a6;
+}
+
+.news__area__item__more {
+  width: 100%;
+  cursor: pointer;
+}
+
+.news__area__item__more .more{
+  display: block;
+}
+
+.news__area__item__more:hover .more {
+  color: #4eb5a6;
+  font-weight: bold;
 }
 
 .news__area__item__textField__title,

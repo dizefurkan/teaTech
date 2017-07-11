@@ -13,6 +13,11 @@
 	background-color: #e2e1e1;
 }
 
+.header__top__auth {
+  position: relative;
+  display: block;
+}
+
 .header__top__auth__item {
 	float: left;
 }
@@ -213,5 +218,13 @@
   .header__logo .container {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 991px) {
+  .header__navBar__search .navbar-form {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    float: none !important;
   }
 }
