@@ -30,6 +30,8 @@
 
 .footer__content__area .img-responsive {
   margin-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .footer__content__area__menu__title {
@@ -93,6 +95,8 @@
 
 .footer__content__area__menu__form {
   position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 .footer__content__area__menu__form__input {
