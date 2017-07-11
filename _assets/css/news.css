@@ -104,6 +104,7 @@
   .news__area__item__textField {
     padding-left: 0;
     padding-left: 0;
+    text-align: center;
   }
 
   .news__area__item {
@@ -112,6 +113,24 @@
     margin-bottom: 15px;
   }
 
+  .news__area__item__image .img-responsive {
+    position: relative;
+    margin: auto;
+  }
+
+  .news__area__header,
+  .news__area__header__nav {
+    text-align: center;
+    float: none !important;
+  }
+
+  .news__area__header__title {
+    margin-bottom: 0;
+  }
+
+  .news__area__header__nav {
+    margin-bottom: 10px;
+  }
 }
 
 @media (min-width: 992px) {

@@ -53,6 +53,10 @@
   text-shadow: 2px 2px 20px #ffffff;
 }
 
+.footer__content__area__menu__item:focus {
+  color: #f85457;
+}
+
 .footer__content__area__menu__item__text {
   color: #ffffff;
 }

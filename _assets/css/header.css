@@ -83,6 +83,11 @@
 	background-color: #ffffff !important;
 }
 
+.header__navBar__menu .active a {
+  color: #f95559 !important;
+  background-color: #ffffff !important;
+}
+
 .header__navBar__search .form-group {
 	position: relative;
 	display: block;
