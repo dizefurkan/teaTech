@@ -76,6 +76,7 @@
 .header__navBar__menu__item a {
 	color: #ffffff;
 	padding: 24px 55px;
+  transition: 0.3s;
 }
 
 .header__navBar__menu__item a:hover {
@@ -173,6 +174,22 @@
     padding-left: 15px !important;
     float: none !important;
   }
+
+  .header__top__auth {
+    width: 100%;
+    display: block;
+  }
+
+  .header__top__auth .register,
+  .header__top__auth .login {
+    width: 50%;
+  }
+
+  .header__top__auth .register a,
+  .header__top__auth .login a {
+    text-align: center;
+    display: block;
+  }  
 }
 
 @media (min-width: 992px){
@@ -226,6 +243,7 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
 }
 
 @media (min-width: 991px) and (max-width: 991px) {
